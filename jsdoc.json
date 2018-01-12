@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "name": "TheSceneMixins",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheSceneMixins",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheSceneMixins",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheSceneMixins",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
