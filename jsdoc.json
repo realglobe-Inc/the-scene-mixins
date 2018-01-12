@@ -193,6 +193,27 @@
             }
         },
         {
+            "name": "withQuery",
+            "access": "",
+            "virtual": false,
+            "description": "withQuery mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withReady",
             "access": "",
             "virtual": false,
@@ -431,6 +452,27 @@
             "access": "",
             "virtual": false,
             "description": "withPage mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withQuery",
+            "access": "",
+            "virtual": false,
+            "description": "withQuery mixin",
             "parameters": [
                 {
                     "name": "Class",

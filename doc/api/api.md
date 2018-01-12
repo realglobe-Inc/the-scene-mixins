@@ -1,29 +1,153 @@
-# the-scene-mixins@1.0.0
+# the-scene-mixins@1.0.1
 
 Mixins for the-scene
 
 + Functions
-+ [`TheSceneMixins`](#the-scene-mixins-classes) Class
-  + [new TheSceneMixins()](#the-scene-mixins-classes-the-scene-mixins-constructor)
+  + [compose(mixins)](#the-scene-mixins-function-compose)
+  + [withBack(Class)](#the-scene-mixins-function-with-back)
+  + [withBusy(Class)](#the-scene-mixins-function-with-busy)
+  + [withEntry(Class)](#the-scene-mixins-function-with-entry)
+  + [withFailure(Class)](#the-scene-mixins-function-with-failure)
+  + [withFilter(Class)](#the-scene-mixins-function-with-filter)
+  + [withHistory(Class)](#the-scene-mixins-function-with-history)
+  + [withLocation(Class)](#the-scene-mixins-function-with-location)
+  + [withPage(Class)](#the-scene-mixins-function-with-page)
+  + [withQuery(Class)](#the-scene-mixins-function-with-query)
+  + [withReady(Class)](#the-scene-mixins-function-with-ready)
+  + [withSort(Class)](#the-scene-mixins-function-with-sort)
+  + [withValues(Class)](#the-scene-mixins-function-with-values)
 
 ## Functions
 
+<a class='md-heading-link' name="the-scene-mixins-function-compose" ></a>
 
+### compose(mixins) -> `function`
 
-<a class='md-heading-link' name="the-scene-mixins-classes"></a>
+Compose multiple mixins into one
 
-## `TheSceneMixins` Class
+| Param | Type | Description |
+| ----- | --- | -------- |
+| mixins | function,Array |  |
 
+<a class='md-heading-link' name="the-scene-mixins-function-with-back" ></a>
 
+### withBack(Class) -> `function`
 
+withBack mixin
 
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
 
+<a class='md-heading-link' name="the-scene-mixins-function-with-busy" ></a>
 
-<a class='md-heading-link' name="the-scene-mixins-classes-the-scene-mixins-constructor" ></a>
+### withBusy(Class) -> `function`
 
-### new TheSceneMixins()
+withBusy mixin
 
-Constructor of TheSceneMixins class
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-entry" ></a>
+
+### withEntry(Class) -> `function`
+
+withEntry mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-failure" ></a>
+
+### withFailure(Class) -> `function`
+
+withFailure mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-filter" ></a>
+
+### withFilter(Class) -> `function`
+
+withFilter mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-history" ></a>
+
+### withHistory(Class) -> `function`
+
+withHistory mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-location" ></a>
+
+### withLocation(Class) -> `function`
+
+withLocation mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-page" ></a>
+
+### withPage(Class) -> `function`
+
+withPage mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-query" ></a>
+
+### withQuery(Class) -> `function`
+
+withQuery mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-ready" ></a>
+
+### withReady(Class) -> `function`
+
+withReady mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-sort" ></a>
+
+### withSort(Class) -> `function`
+
+withSort mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-values" ></a>
+
+### withValues(Class) -> `function`
+
+withValues mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
 
 
 

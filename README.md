@@ -74,10 +74,13 @@ Usage
 ```javascript
 'use strict'
 
-const {default: theSceneMixins} = require('the-scene-mixins')
+const {withBusy} = require('the-scene-mixins')
+const {TheScene} = require('the-scene-base')
 
 async function tryExample () {
+  withBusy(class extends TheScene {
 
+  })
 }
 
 tryExample().catch((err) => console.error(err))
@@ -94,8 +97,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-scene-mixins@1.0.0](./doc/api/api.md)
-  + [TheSceneMixins](./doc/api/api.md#the-scene-mixins-class)
++ [the-scene-mixins@1.0.1](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
