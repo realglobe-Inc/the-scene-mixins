@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/the-labo/the-scene-mixins#readme",
   "dependencies": {
+    "bwindow": "^1.1.0",
     "qs": "^6.5.1",
     "the-error": "^1.4.4"
   },
