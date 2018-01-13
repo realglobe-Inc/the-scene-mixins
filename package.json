@@ -1,6 +1,6 @@
 {
   "name": "the-scene-mixins",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mixins for the-scene",
   "main": "lib",
   "browser": "shim",
