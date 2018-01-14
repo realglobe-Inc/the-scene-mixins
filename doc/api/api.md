@@ -4,6 +4,7 @@ Mixins for the-scene
 
 + Functions
   + [compose(mixins)](#the-scene-mixins-function-compose)
+  + [forScope()](#the-scene-mixins-function-for-scope)
   + [withBack(Class)](#the-scene-mixins-function-with-back)
   + [withBusy(Class)](#the-scene-mixins-function-with-busy)
   + [withEntry(Class)](#the-scene-mixins-function-with-entry)
@@ -29,6 +30,11 @@ Compose multiple mixins into one
 | ----- | --- | -------- |
 | mixins | function,Array |  |
 
+<a class='md-heading-link' name="the-scene-mixins-function-for-scope" ></a>
+
+### forScope() -> `function`
+
+For scope
 <a class='md-heading-link' name="the-scene-mixins-function-with-back" ></a>
 
 ### withBack(Class) -> `function`
