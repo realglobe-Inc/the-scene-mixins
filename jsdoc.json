@@ -25,6 +25,18 @@
             }
         },
         {
+            "name": "forScope",
+            "access": "",
+            "virtual": false,
+            "description": "For scope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
             "name": "withBack",
             "access": "",
             "virtual": false,
@@ -298,6 +310,18 @@
             "returns": {
                 "type": "function",
                 "description": "Composed mixin"
+            }
+        },
+        {
+            "name": "forScope",
+            "access": "",
+            "virtual": false,
+            "description": "For scope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
             }
         },
         {
