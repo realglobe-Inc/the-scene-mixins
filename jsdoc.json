@@ -25,7 +25,31 @@
             }
         },
         {
+            "name": "defaults",
+            "access": "",
+            "virtual": false,
+            "description": "For defaults",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
             "name": "forScope",
+            "access": "",
+            "virtual": false,
+            "description": "For scope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
+            "name": "scope",
             "access": "",
             "virtual": false,
             "description": "For scope",
@@ -313,7 +337,31 @@
             }
         },
         {
+            "name": "defaults",
+            "access": "",
+            "virtual": false,
+            "description": "For defaults",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
             "name": "forScope",
+            "access": "",
+            "virtual": false,
+            "description": "For scope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
+            "name": "scope",
             "access": "",
             "virtual": false,
             "description": "For scope",
