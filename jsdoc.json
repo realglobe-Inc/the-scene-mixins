@@ -1,6 +1,30 @@
 {
     "functions": [
         {
+            "name": "bindDefaults",
+            "access": "",
+            "virtual": false,
+            "description": "For bindDefaults",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
+            "name": "bindScope",
+            "access": "",
+            "virtual": false,
+            "description": "For bindScope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
             "name": "compose",
             "access": "",
             "virtual": false,
@@ -25,31 +49,7 @@
             }
         },
         {
-            "name": "defaults",
-            "access": "",
-            "virtual": false,
-            "description": "For defaults",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "method annotation function"
-            }
-        },
-        {
             "name": "forScope",
-            "access": "",
-            "virtual": false,
-            "description": "For scope",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "method annotation function"
-            }
-        },
-        {
-            "name": "scope",
             "access": "",
             "virtual": false,
             "description": "For scope",
@@ -313,6 +313,30 @@
             }
         },
         {
+            "name": "bindDefaults",
+            "access": "",
+            "virtual": false,
+            "description": "For bindDefaults",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
+            "name": "bindScope",
+            "access": "",
+            "virtual": false,
+            "description": "For bindScope",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "method annotation function"
+            }
+        },
+        {
             "name": "compose",
             "access": "",
             "virtual": false,
@@ -337,31 +361,7 @@
             }
         },
         {
-            "name": "defaults",
-            "access": "",
-            "virtual": false,
-            "description": "For defaults",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "method annotation function"
-            }
-        },
-        {
             "name": "forScope",
-            "access": "",
-            "virtual": false,
-            "description": "For scope",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "method annotation function"
-            }
-        },
-        {
-            "name": "scope",
             "access": "",
             "virtual": false,
             "description": "For scope",

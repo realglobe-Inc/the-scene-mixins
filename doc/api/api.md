@@ -1,12 +1,12 @@
-# the-scene-mixins@1.2.0
+# the-scene-mixins@1.2.1
 
 Mixins for the-scene
 
 + Functions
+  + [bindDefaults()](#the-scene-mixins-function-bind-defaults)
+  + [bindScope()](#the-scene-mixins-function-bind-scope)
   + [compose(mixins)](#the-scene-mixins-function-compose)
-  + [defaults()](#the-scene-mixins-function-defaults)
   + [forScope()](#the-scene-mixins-function-for-scope)
-  + [scope()](#the-scene-mixins-function-scope)
   + [withBack(Class)](#the-scene-mixins-function-with-back)
   + [withBusy(Class)](#the-scene-mixins-function-with-busy)
   + [withEntry(Class)](#the-scene-mixins-function-with-entry)
@@ -22,6 +22,16 @@ Mixins for the-scene
 
 ## Functions
 
+<a class='md-heading-link' name="the-scene-mixins-function-bind-defaults" ></a>
+
+### bindDefaults() -> `function`
+
+For bindDefaults
+<a class='md-heading-link' name="the-scene-mixins-function-bind-scope" ></a>
+
+### bindScope() -> `function`
+
+For bindScope
 <a class='md-heading-link' name="the-scene-mixins-function-compose" ></a>
 
 ### compose(mixins) -> `function`
@@ -32,19 +42,9 @@ Compose multiple mixins into one
 | ----- | --- | -------- |
 | mixins | function,Array |  |
 
-<a class='md-heading-link' name="the-scene-mixins-function-defaults" ></a>
-
-### defaults() -> `function`
-
-For defaults
 <a class='md-heading-link' name="the-scene-mixins-function-for-scope" ></a>
 
 ### forScope() -> `function`
-
-For scope
-<a class='md-heading-link' name="the-scene-mixins-function-scope" ></a>
-
-### scope() -> `function`
 
 For scope
 <a class='md-heading-link' name="the-scene-mixins-function-with-back" ></a>

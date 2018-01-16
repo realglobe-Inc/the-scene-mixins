@@ -1,13 +1,13 @@
 /**
- * Test for scope.
+ * Test for bindScope.
  * Runs with mocha.
  */
 'use strict'
 
-const scope = require('../lib/scope')
+const bindScope = require('../lib/bindScope')
 const { ok, equal } = require('assert')
 
-describe('scope', () => {
+describe('bindScope', () => {
   before(() => {
   })
 

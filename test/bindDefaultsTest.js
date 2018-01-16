@@ -1,13 +1,13 @@
 /**
- * Test for defaults.
+ * Test for bindDefaults.
  * Runs with mocha.
  */
 'use strict'
 
-const defaults = require('../lib/defaults')
+const bindDefaults = require('../lib/bindDefaults')
 const {ok, equal} = require('assert')
 
-describe('defaults', () => {
+describe('bindDefaults', () => {
   before(() => {
   })
 
@@ -15,12 +15,12 @@ describe('defaults', () => {
   })
 
   it('Do test', () => {
-    const Class = defaults(
+    const Class = bindDefaults(
       {foo: 'bar'}
     )(class {})
 
     const instance = new Class()
-    equal(instance.defaults.foo, 'bar')
+    equal(instance.bindDefaults.foo, 'bar')
   })
 })
 
