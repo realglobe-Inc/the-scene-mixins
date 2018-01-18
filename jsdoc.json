@@ -292,6 +292,27 @@
             }
         },
         {
+            "name": "withTargets",
+            "access": "",
+            "virtual": false,
+            "description": "withTargets mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withValues",
             "access": "",
             "virtual": false,
@@ -587,6 +608,27 @@
             "access": "",
             "virtual": false,
             "description": "withSort mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withTargets",
+            "access": "",
+            "virtual": false,
+            "description": "withTargets mixin",
             "parameters": [
                 {
                     "name": "Class",

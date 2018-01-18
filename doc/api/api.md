@@ -1,4 +1,4 @@
-# the-scene-mixins@1.3.2
+# the-scene-mixins@1.4.0
 
 Mixins for the-scene
 
@@ -18,6 +18,7 @@ Mixins for the-scene
   + [withQuery(Class)](#the-scene-mixins-function-with-query)
   + [withReady(Class)](#the-scene-mixins-function-with-ready)
   + [withSort(Class)](#the-scene-mixins-function-with-sort)
+  + [withTargets(Class)](#the-scene-mixins-function-with-targets)
   + [withValues(Class)](#the-scene-mixins-function-with-values)
 
 ## Functions
@@ -152,6 +153,16 @@ withReady mixin
 ### withSort(Class) -> `function`
 
 withSort mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-targets" ></a>
+
+### withTargets(Class) -> `function`
+
+withTargets mixin
 
 | Param | Type | Description |
 | ----- | --- | -------- |
