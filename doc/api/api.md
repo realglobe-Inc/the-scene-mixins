@@ -1,4 +1,4 @@
-# the-scene-mixins@1.5.2
+# the-scene-mixins@1.5.3
 
 Mixins for the-scene
 
@@ -6,7 +6,11 @@ Mixins for the-scene
   + [bindDefaults()](#the-scene-mixins-function-bind-defaults)
   + [bindScope()](#the-scene-mixins-function-bind-scope)
   + [compose(mixins)](#the-scene-mixins-function-compose)
-  + [forScope()](#the-scene-mixins-function-for-scope)
+  + [siteToast()](#the-scene-mixins-function-site-toast)
+  + [showInfo(message)](#the-scene-mixins-function-show-info)
+  + [showWarn(message)](#the-scene-mixins-function-show-warn)
+  + [showError(message)](#the-scene-mixins-function-show-error)
+  + [reset(queues)](#the-scene-mixins-function-reset)
   + [withBack(Class)](#the-scene-mixins-function-with-back)
   + [withBusy(Class)](#the-scene-mixins-function-with-busy)
   + [withEntry(Class)](#the-scene-mixins-function-with-entry)
@@ -44,11 +48,51 @@ Compose multiple mixins into one
 | ----- | --- | -------- |
 | mixins | function,Array |  |
 
-<a class='md-heading-link' name="the-scene-mixins-function-for-scope" ></a>
+<a class='md-heading-link' name="the-scene-mixins-function-site-toast" ></a>
 
-### forScope() -> `function`
+### siteToast() -> `function`
 
-For scope
+Site toast mix
+<a class='md-heading-link' name="the-scene-mixins-function-show-info" ></a>
+
+### showInfo(message)
+
+Show info toast
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| message | string |  |
+
+<a class='md-heading-link' name="the-scene-mixins-function-show-warn" ></a>
+
+### showWarn(message)
+
+Show warn toast
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| message | string |  |
+
+<a class='md-heading-link' name="the-scene-mixins-function-show-error" ></a>
+
+### showError(message)
+
+Show error toast
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| message | string |  |
+
+<a class='md-heading-link' name="the-scene-mixins-function-reset" ></a>
+
+### reset(queues)
+
+Rest toasts
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| queues | Object.&lt;string, Array.&lt;string&gt;&gt; | Toast queue |
+
 <a class='md-heading-link' name="the-scene-mixins-function-with-back" ></a>
 
 ### withBack(Class) -> `function`

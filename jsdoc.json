@@ -21,7 +21,7 @@
             "examples": [],
             "returns": {
                 "type": "function",
-                "description": "method annotation function"
+                "description": "Class annotation function"
             }
         },
         {
@@ -49,16 +49,84 @@
             }
         },
         {
-            "name": "forScope",
+            "name": "siteToast",
             "access": "",
             "virtual": false,
-            "description": "For scope",
+            "description": "Site toast mix",
             "parameters": [],
             "examples": [],
             "returns": {
                 "type": "function",
-                "description": "method annotation function"
+                "description": "Annotated class"
             }
+        },
+        {
+            "name": "showInfo",
+            "access": "",
+            "virtual": false,
+            "description": "Show info toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showWarn",
+            "access": "",
+            "virtual": false,
+            "description": "Show warn toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showError",
+            "access": "",
+            "virtual": false,
+            "description": "Show error toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "reset",
+            "access": "",
+            "virtual": false,
+            "description": "Rest toasts",
+            "parameters": [
+                {
+                    "name": "queues",
+                    "type": "Object.<string, Array.<string>>",
+                    "description": "Toast queue",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
         },
         {
             "name": "withBack",
@@ -375,7 +443,7 @@
             "examples": [],
             "returns": {
                 "type": "function",
-                "description": "method annotation function"
+                "description": "Class annotation function"
             }
         },
         {
@@ -403,16 +471,84 @@
             }
         },
         {
-            "name": "forScope",
+            "name": "siteToast",
             "access": "",
             "virtual": false,
-            "description": "For scope",
+            "description": "Site toast mix",
             "parameters": [],
             "examples": [],
             "returns": {
                 "type": "function",
-                "description": "method annotation function"
+                "description": "Annotated class"
             }
+        },
+        {
+            "name": "showInfo",
+            "access": "",
+            "virtual": false,
+            "description": "Show info toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showWarn",
+            "access": "",
+            "virtual": false,
+            "description": "Show warn toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showError",
+            "access": "",
+            "virtual": false,
+            "description": "Show error toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "reset",
+            "access": "",
+            "virtual": false,
+            "description": "Rest toasts",
+            "parameters": [
+                {
+                    "name": "queues",
+                    "type": "Object.<string, Array.<string>>",
+                    "description": "Toast queue",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
         },
         {
             "name": "withBack",
