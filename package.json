@@ -12,6 +12,7 @@
     "url": "https://github.com/the-labo/the-scene-mixins/issues"
   },
   "dependencies": {
+    "asleep": "^1.0.3",
     "bwindow": "^1.1.0",
     "qs": "^6.5.1",
     "the-array": "^1.3.0",
