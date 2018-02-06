@@ -20,7 +20,7 @@ describe('bindDefaults', () => {
     )(class {})
 
     const instance = new Class()
-    equal(instance.bindDefaults.foo, 'bar')
+    equal(instance.defaults.foo, 'bar')
   })
 })
 
