@@ -1,4 +1,4 @@
-# the-scene-mixins@1.5.10
+# the-scene-mixins@1.5.11
 
 Mixins for the-scene
 
