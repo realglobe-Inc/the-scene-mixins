@@ -61,6 +61,40 @@
             }
         },
         {
+            "name": "reset",
+            "access": "",
+            "virtual": false,
+            "description": "Rest toasts",
+            "parameters": [
+                {
+                    "name": "queues",
+                    "type": "Object.<string, Array.<string>>",
+                    "description": "Toast queue",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showError",
+            "access": "",
+            "virtual": false,
+            "description": "Show error toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "showInfo",
             "access": "",
             "virtual": false,
@@ -87,40 +121,6 @@
                     "name": "message",
                     "type": "string",
                     "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": []
-        },
-        {
-            "name": "showError",
-            "access": "",
-            "virtual": false,
-            "description": "Show error toast",
-            "parameters": [
-                {
-                    "name": "message",
-                    "type": "string",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": []
-        },
-        {
-            "name": "reset",
-            "access": "",
-            "virtual": false,
-            "description": "Rest toasts",
-            "parameters": [
-                {
-                    "name": "queues",
-                    "type": "Object.<string, Array.<string>>",
-                    "description": "Toast queue",
                     "default": "",
                     "optional": "",
                     "nullable": ""
@@ -238,6 +238,27 @@
             "access": "",
             "virtual": false,
             "description": "withHistory mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withId",
+            "access": "",
+            "virtual": false,
+            "description": "withId mixin",
             "parameters": [
                 {
                     "name": "Class",
@@ -483,6 +504,40 @@
             }
         },
         {
+            "name": "reset",
+            "access": "",
+            "virtual": false,
+            "description": "Rest toasts",
+            "parameters": [
+                {
+                    "name": "queues",
+                    "type": "Object.<string, Array.<string>>",
+                    "description": "Toast queue",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "showError",
+            "access": "",
+            "virtual": false,
+            "description": "Show error toast",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "showInfo",
             "access": "",
             "virtual": false,
@@ -509,40 +564,6 @@
                     "name": "message",
                     "type": "string",
                     "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": []
-        },
-        {
-            "name": "showError",
-            "access": "",
-            "virtual": false,
-            "description": "Show error toast",
-            "parameters": [
-                {
-                    "name": "message",
-                    "type": "string",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": []
-        },
-        {
-            "name": "reset",
-            "access": "",
-            "virtual": false,
-            "description": "Rest toasts",
-            "parameters": [
-                {
-                    "name": "queues",
-                    "type": "Object.<string, Array.<string>>",
-                    "description": "Toast queue",
                     "default": "",
                     "optional": "",
                     "nullable": ""
@@ -660,6 +681,27 @@
             "access": "",
             "virtual": false,
             "description": "withHistory mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withId",
+            "access": "",
+            "virtual": false,
+            "description": "withId mixin",
             "parameters": [
                 {
                     "name": "Class",

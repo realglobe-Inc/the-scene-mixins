@@ -1,4 +1,4 @@
-# the-scene-mixins@1.5.14
+# the-scene-mixins@1.5.15
 
 Mixins for the-scene
 
@@ -7,16 +7,17 @@ Mixins for the-scene
   + [bindScope()](#the-scene-mixins-function-bind-scope)
   + [compose(mixins)](#the-scene-mixins-function-compose)
   + [siteToast()](#the-scene-mixins-function-site-toast)
+  + [reset(queues)](#the-scene-mixins-function-reset)
+  + [showError(message)](#the-scene-mixins-function-show-error)
   + [showInfo(message)](#the-scene-mixins-function-show-info)
   + [showWarn(message)](#the-scene-mixins-function-show-warn)
-  + [showError(message)](#the-scene-mixins-function-show-error)
-  + [reset(queues)](#the-scene-mixins-function-reset)
   + [withBack(Class)](#the-scene-mixins-function-with-back)
   + [withBusy(Class)](#the-scene-mixins-function-with-busy)
   + [withEntry(Class)](#the-scene-mixins-function-with-entry)
   + [withFailure(Class)](#the-scene-mixins-function-with-failure)
   + [withFilter(Class)](#the-scene-mixins-function-with-filter)
   + [withHistory(Class)](#the-scene-mixins-function-with-history)
+  + [withId(Class)](#the-scene-mixins-function-with-id)
   + [withLocation(Class)](#the-scene-mixins-function-with-location)
   + [withPage(Class)](#the-scene-mixins-function-with-page)
   + [withQuery(Class)](#the-scene-mixins-function-with-query)
@@ -53,6 +54,26 @@ Compose multiple mixins into one
 ### siteToast() -> `function`
 
 Site toast mix
+<a class='md-heading-link' name="the-scene-mixins-function-reset" ></a>
+
+### reset(queues)
+
+Rest toasts
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| queues | Object.&lt;string, Array.&lt;string&gt;&gt; | Toast queue |
+
+<a class='md-heading-link' name="the-scene-mixins-function-show-error" ></a>
+
+### showError(message)
+
+Show error toast
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| message | string |  |
+
 <a class='md-heading-link' name="the-scene-mixins-function-show-info" ></a>
 
 ### showInfo(message)
@@ -72,26 +93,6 @@ Show warn toast
 | Param | Type | Description |
 | ----- | --- | -------- |
 | message | string |  |
-
-<a class='md-heading-link' name="the-scene-mixins-function-show-error" ></a>
-
-### showError(message)
-
-Show error toast
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| message | string |  |
-
-<a class='md-heading-link' name="the-scene-mixins-function-reset" ></a>
-
-### reset(queues)
-
-Rest toasts
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| queues | Object.&lt;string, Array.&lt;string&gt;&gt; | Toast queue |
 
 <a class='md-heading-link' name="the-scene-mixins-function-with-back" ></a>
 
@@ -148,6 +149,16 @@ withFilter mixin
 ### withHistory(Class) -> `function`
 
 withHistory mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-id" ></a>
+
+### withId(Class) -> `function`
+
+withId mixin
 
 | Param | Type | Description |
 | ----- | --- | -------- |
