@@ -17,7 +17,7 @@
     "qs": "^6.5.1",
     "the-array": "^1.3.0",
     "the-check": "^1.2.2",
-    "the-error": "^1.4.4"
+    "the-error": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "^5.0.1",
@@ -26,7 +26,7 @@
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^1.0.0",
-    "the-templates": "^3.0.0"
+    "the-templates": "^3.0.1"
   },
   "engines": {
     "node": ">=8",
