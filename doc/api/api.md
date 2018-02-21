@@ -1,4 +1,4 @@
-# the-scene-mixins@1.5.20
+# the-scene-mixins@1.5.21
 
 Mixins for the-scene
 
@@ -13,6 +13,7 @@ Mixins for the-scene
   + [showWarn(message)](#the-scene-mixins-function-show-warn)
   + [withBack(Class)](#the-scene-mixins-function-with-back)
   + [withBusy(Class)](#the-scene-mixins-function-with-busy)
+  + [withEntities(Class)](#the-scene-mixins-function-with-entities)
   + [withEntry(Class)](#the-scene-mixins-function-with-entry)
   + [withFailure(Class)](#the-scene-mixins-function-with-failure)
   + [withFilter(Class)](#the-scene-mixins-function-with-filter)
@@ -109,6 +110,16 @@ withBack mixin
 ### withBusy(Class) -> `function`
 
 withBusy mixin
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class | function | Class to mix |
+
+<a class='md-heading-link' name="the-scene-mixins-function-with-entities" ></a>
+
+### withEntities(Class) -> `function`
+
+withEntities mixin
 
 | Param | Type | Description |
 | ----- | --- | -------- |

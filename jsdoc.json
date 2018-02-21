@@ -171,6 +171,27 @@
             }
         },
         {
+            "name": "withEntities",
+            "access": "",
+            "virtual": false,
+            "description": "withEntities mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withEntry",
             "access": "",
             "virtual": false,
@@ -597,6 +618,27 @@
             "access": "",
             "virtual": false,
             "description": "withBusy mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withEntities",
+            "access": "",
+            "virtual": false,
+            "description": "withEntities mixin",
             "parameters": [
                 {
                     "name": "Class",

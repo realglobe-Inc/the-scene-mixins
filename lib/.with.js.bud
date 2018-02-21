@@ -3,6 +3,7 @@
 module.exports = [
   'withFilter',
   'withId',
+  'withEntities',
 ].map((name) => (
   {
     force: false,
