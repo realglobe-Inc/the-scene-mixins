@@ -276,6 +276,27 @@
             }
         },
         {
+            "name": "withHolder",
+            "access": "",
+            "virtual": false,
+            "description": "withHolder mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withId",
             "access": "",
             "virtual": false,
@@ -723,6 +744,27 @@
             "access": "",
             "virtual": false,
             "description": "withHistory mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
+            "name": "withHolder",
+            "access": "",
+            "virtual": false,
+            "description": "withHolder mixin",
             "parameters": [
                 {
                     "name": "Class",
