@@ -33,6 +33,10 @@ describe('with-entities', () => {
     const c = new C()
     c.addEntities([{id: 1}, {id: 2}])
     c.addEntities([{id: 2}, {id: 3}])
+    c.addEntity({id: 4})
+    equal(c.getEntities().length, 4)
+
+    c.deleteEntity({id: 2})
     equal(c.getEntities().length, 3)
   })
 })
