@@ -24,7 +24,7 @@ describe('with-entities', () => {
         get (key) {
           return this[key]
         }
-
+        
         set (values) {
           Object.assign(this, values)
         }
