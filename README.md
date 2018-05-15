@@ -78,9 +78,11 @@ const {withBusy} = require('the-scene-mixins')
 const {TheScene} = require('the-scene-base')
 
 async function tryExample () {
-  withBusy(class extends TheScene {
+  const MyScene = withBusy(
+    class MySceneBase extends TheScene {
 
-  })
+    }
+  )
 }
 
 tryExample().catch((err) => console.error(err))
@@ -97,7 +99,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-scene-mixins@1.5.30](./doc/api/api.md)
++ [the-scene-mixins@1.5.31](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

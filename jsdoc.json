@@ -318,6 +318,27 @@
             }
         },
         {
+            "name": "withLimit",
+            "access": "",
+            "virtual": false,
+            "description": "withLimit mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withLocation",
             "access": "",
             "virtual": false,
