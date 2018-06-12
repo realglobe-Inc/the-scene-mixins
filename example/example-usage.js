@@ -6,7 +6,6 @@ const {TheScene} = require('the-scene-base')
 async function tryExample () {
   const MyScene = withBusy(
     class MySceneBase extends TheScene {
-
     }
   )
 }
