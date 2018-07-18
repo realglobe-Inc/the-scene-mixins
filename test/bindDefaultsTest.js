@@ -21,6 +21,13 @@ describe('bindDefaults', () => {
 
     const instance = new Class()
     equal(instance.defaults.foo, 'bar')
+
+    const Class2 = bindDefaults({
+      foo2: 'bar2'
+    })(Class)
+    const instance2 = new Class2()
+    equal(instance2.defaults.foo, 'bar')
+    equal(instance2.defaults.foo2, 'bar2')
   })
 })
 
