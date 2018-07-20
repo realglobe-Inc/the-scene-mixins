@@ -255,6 +255,27 @@
             }
         },
         {
+            "name": "withForm",
+            "access": "",
+            "virtual": false,
+            "description": "withForm mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withHistory",
             "access": "",
             "virtual": false,
