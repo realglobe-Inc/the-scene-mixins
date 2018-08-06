@@ -15,8 +15,32 @@ describe('with-filter', () => {
   })
 
   it('Do test', () => {
-    const WithFilter = withFilter(class {})
-    ok(WithFilter)
+    const C = withFilter(
+      class A {
+        constructor () {
+          this.values = {}
+        }
+
+        init () {
+          this.values = {}
+        }
+
+        get (key) {
+          return this[key]
+        }
+
+        set (values) {
+          Object.assign(this.values, values)
+        }
+      }
+    )
+    ok(C)
+    const c = new C()
+    c.setFilterByQ('hoge', {and: {x: 1}})
+    equal(
+      c.values.filter.x,
+      1
+    )
   })
 })
 
