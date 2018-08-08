@@ -38,7 +38,7 @@ describe('with-filter', () => {
     const c = new C()
     c.setFilterByQ('hoge', {and: {x: 1}})
     equal(
-      c.values.filter.$or[0].x,
+      c.values.filter.x,
       1
     )
   })
