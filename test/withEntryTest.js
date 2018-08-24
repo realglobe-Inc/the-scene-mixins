@@ -18,12 +18,26 @@ describe('with-entry', () => {
     const WithEntry = withEntry(
       class {
         get scope () {
-          return {}
+          return {
+            entry: {
+              set (k, v) {
+                this[k] = v
+              },
+              state: {},
+            },
+            entryErrors: {
+              state: {},
+            }
+          }
         }
       }
     )
     const obj = new WithEntry()
     ok(obj)
+
+    obj.setEntry({
+      a: [{i: 1}, {i: 2}]
+    })
   })
 })
 
