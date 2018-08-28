@@ -5,14 +5,13 @@ const {dir} = require('the-templates')
 
 module.exports = [
   true,
-  false
 ].map((cjs) => ({
   ...dir({
-    cjs,
     dirname: __dirname,
     name: pkg.name,
     description: pkg.description,
-  })
+    cjs,
+  }),
 }))
 
 if (!module.parent) {

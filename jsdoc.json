@@ -444,6 +444,27 @@
             }
         },
         {
+            "name": "withResize",
+            "access": "",
+            "virtual": false,
+            "description": "withResize mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "withResult",
             "access": "",
             "virtual": false,
