@@ -1,7 +1,7 @@
 {
   "name": "the-scene-mixins",
   "description": "Mixins for the-scene",
-  "version": "1.6.21",
+  "version": "1.6.22",
   "author": {
     "name": "okunishinishi",
     "email": "okunishinishi@gmail.com",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "the-script-build": "^4.0.7",
+    "the-script-build": "^4.0.9",
     "the-script-jsdoc": "^2.0.3",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
