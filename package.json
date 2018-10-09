@@ -18,7 +18,7 @@
     "objnest": "^5.0.3",
     "qs": "^6.5.2",
     "the-array": "^1.4.1",
-    "the-check": "^2.0.8",
+    "the-check": "^2.0.10",
     "the-error": "^2.0.5"
   },
   "devDependencies": {
