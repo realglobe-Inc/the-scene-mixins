@@ -6,7 +6,7 @@ Mixins for the-scene
 + Functions
   + [bindDefaults()](#the-scene-mixins-function-bind-defaults)
   + [bindScope()](#the-scene-mixins-function-bind-scope)
-  + [compose(mixins)](#the-scene-mixins-function-compose)
+  + [compose()](#the-scene-mixins-function-compose)
   + [siteToast()](#the-scene-mixins-function-site-toast)
   + [reset(queues)](#the-scene-mixins-function-reset)
   + [showError(message)](#the-scene-mixins-function-show-error)
@@ -48,13 +48,8 @@ For bindDefaults
 For bindScope
 <a class='md-heading-link' name="the-scene-mixins-function-compose" ></a>
 
-### compose(mixins) -> `function`
+### compose()
 
-Compose multiple mixins into one
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| mixins | function,Array |  |
 
 <a class='md-heading-link' name="the-scene-mixins-function-site-toast" ></a>
 
