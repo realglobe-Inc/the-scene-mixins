@@ -25,14 +25,6 @@
             }
         },
         {
-            "name": "compose",
-            "access": "",
-            "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": []
-        },
-        {
             "name": "siteToast",
             "access": "",
             "virtual": false,
@@ -111,27 +103,6 @@
                 }
             ],
             "examples": []
-        },
-        {
-            "name": "withBack",
-            "access": "",
-            "virtual": false,
-            "description": "withBack mixin",
-            "parameters": [
-                {
-                    "name": "Class",
-                    "type": "function",
-                    "description": "Class to mix",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "Mixed class"
-            }
         },
         {
             "name": "withBusy",
@@ -264,27 +235,6 @@
             "access": "",
             "virtual": false,
             "description": "withHistory mixin",
-            "parameters": [
-                {
-                    "name": "Class",
-                    "type": "function",
-                    "description": "Class to mix",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "Mixed class"
-            }
-        },
-        {
-            "name": "withHolder",
-            "access": "",
-            "virtual": false,
-            "description": "withHolder mixin",
             "parameters": [
                 {
                     "name": "Class",
@@ -512,27 +462,6 @@
             }
         },
         {
-            "name": "withValues",
-            "access": "",
-            "virtual": false,
-            "description": "withValues mixin",
-            "parameters": [
-                {
-                    "name": "Class",
-                    "type": "function",
-                    "description": "Class to mix",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "Mixed class"
-            }
-        },
-        {
             "name": "asClassMixin",
             "access": "",
             "virtual": false,
@@ -541,10 +470,10 @@
             "examples": []
         },
         {
-            "name": "asClassMixin",
+            "name": "asMethodWrap",
             "access": "",
             "virtual": false,
-            "description": "function asClassMixin",
+            "description": "Define method wrapper",
             "parameters": [],
             "examples": []
         }
