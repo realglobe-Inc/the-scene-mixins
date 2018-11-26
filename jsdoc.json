@@ -462,6 +462,27 @@
             }
         },
         {
+            "name": "withValues",
+            "access": "",
+            "virtual": false,
+            "description": "withValues mixin",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "Class to mix",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Mixed class"
+            }
+        },
+        {
             "name": "asClassMixin",
             "access": "",
             "virtual": false,
