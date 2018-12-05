@@ -126,6 +126,14 @@
             }
         },
         {
+            "name": "goBack",
+            "access": "",
+            "virtual": false,
+            "description": "Go Back",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withBusy",
             "access": "",
             "virtual": false,
@@ -144,6 +152,72 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "isBusy",
+            "access": "",
+            "virtual": false,
+            "description": "Is busy or not",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "boolean",
+                "description": ""
+            }
+        },
+        {
+            "name": "busyFor",
+            "access": "",
+            "virtual": false,
+            "description": "Wait busy for",
+            "parameters": [
+                {
+                    "name": "duration",
+                    "type": "number",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
+            }
+        },
+        {
+            "name": "busyWhile",
+            "access": "",
+            "virtual": false,
+            "description": "Set busy true while task active",
+            "parameters": [
+                {
+                    "name": "task",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
+            }
+        },
+        {
+            "name": "waitWhileBusy",
+            "access": "",
+            "virtual": false,
+            "description": "Wait while busy",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
             }
         },
         {
@@ -168,6 +242,127 @@
             }
         },
         {
+            "name": "addEntities",
+            "access": "",
+            "virtual": false,
+            "description": "Add entities",
+            "parameters": [
+                {
+                    "name": "entities",
+                    "type": "Array.<Object>",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "Optional settings",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "addEntity",
+            "access": "",
+            "virtual": false,
+            "description": "Add a entity",
+            "parameters": [
+                {
+                    "name": "entity",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "Optional settings",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "deleteEntity",
+            "access": "",
+            "virtual": false,
+            "description": "Delete entity",
+            "parameters": [
+                {
+                    "name": "entity",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "getEntities",
+            "access": "",
+            "virtual": false,
+            "description": "Get entities",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Array.<Object>",
+                "description": ""
+            }
+        },
+        {
+            "name": "receiveEntity",
+            "access": "",
+            "virtual": false,
+            "description": "Receive an entity",
+            "parameters": [
+                {
+                    "name": "entity",
+                    "type": "",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "Optional settings",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "updateEntity",
+            "access": "",
+            "virtual": false,
+            "description": "Update existing entity",
+            "parameters": [
+                {
+                    "name": "entity",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "withEntry",
             "access": "",
             "virtual": false,
@@ -186,6 +381,35 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "getEntry",
+            "access": "",
+            "virtual": false,
+            "description": "Get entry values",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "processEntry",
+            "access": "",
+            "virtual": false,
+            "description": "Process an entry",
+            "parameters": [
+                {
+                    "name": "handler",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
             }
         },
         {
@@ -231,6 +455,43 @@
             }
         },
         {
+            "name": "getFilter",
+            "access": "",
+            "virtual": false,
+            "description": "Get filter",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": ""
+            }
+        },
+        {
+            "name": "setFilter",
+            "access": "",
+            "virtual": false,
+            "description": "Set filter",
+            "parameters": [
+                {
+                    "name": "filter",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "setFilterByQ",
+            "access": "",
+            "virtual": false,
+            "description": "Set filters by q",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withForm",
             "access": "",
             "virtual": false,
@@ -273,6 +534,23 @@
             }
         },
         {
+            "name": "replaceHistoryByQuery",
+            "access": "",
+            "virtual": false,
+            "description": "Replace history with query",
+            "parameters": [
+                {
+                    "name": "query",
+                    "type": "Object",
+                    "description": "Query data",
+                    "default": "",
+                    "optional": "",
+                    "nullable": true
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "withId",
             "access": "",
             "virtual": false,
@@ -291,6 +569,39 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "getId",
+            "access": "",
+            "virtual": false,
+            "description": "Get id",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "string",
+                "description": "id"
+            }
+        },
+        {
+            "name": "isKnownId",
+            "access": "",
+            "virtual": false,
+            "description": "Check if the id is known",
+            "parameters": [
+                {
+                    "name": "id",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "boolean",
+                "description": ""
             }
         },
         {
@@ -315,6 +626,55 @@
             }
         },
         {
+            "name": "getLimit",
+            "access": "",
+            "virtual": false,
+            "description": "Get limit",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "number",
+                "description": ""
+            }
+        },
+        {
+            "name": "nextLimit",
+            "access": "",
+            "virtual": false,
+            "description": "Next limit",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "number",
+                "description": ""
+            }
+        },
+        {
+            "name": "setLimit",
+            "access": "",
+            "virtual": false,
+            "description": "Set limit",
+            "parameters": [
+                {
+                    "name": "limit",
+                    "type": "number",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "updateToNextLimit",
+            "access": "",
+            "virtual": false,
+            "description": "Update to next limit",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withLocation",
             "access": "",
             "virtual": false,
@@ -333,6 +693,64 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "changeLocationTo",
+            "access": "",
+            "virtual": false,
+            "description": "Change location to url",
+            "parameters": [
+                {
+                    "name": "href",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "getLocationHash",
+            "access": "",
+            "virtual": false,
+            "description": "Get location hash",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "*",
+                "description": ""
+            }
+        },
+        {
+            "name": "setLocationHash",
+            "access": "",
+            "virtual": false,
+            "description": "Set location hash",
+            "parameters": [
+                {
+                    "name": "hash",
+                    "type": "",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "reloadLocation",
+            "access": "",
+            "virtual": false,
+            "description": "Reload current location",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
             }
         },
         {
@@ -357,6 +775,18 @@
             }
         },
         {
+            "name": "getPage",
+            "access": "",
+            "virtual": false,
+            "description": "Get page data",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": ""
+            }
+        },
+        {
             "name": "withQuery",
             "access": "",
             "virtual": false,
@@ -375,6 +805,65 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "getQueryFromSearch",
+            "access": "",
+            "virtual": false,
+            "description": "Get query from search",
+            "parameters": [
+                {
+                    "name": "search",
+                    "type": "string",
+                    "description": "",
+                    "default": "location.search",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": ""
+            }
+        },
+        {
+            "name": "mergeQueryToSearch",
+            "access": "",
+            "virtual": false,
+            "description": "Merge additional query into search",
+            "parameters": [
+                {
+                    "name": "query",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "queryWithSearch",
+            "access": "",
+            "virtual": false,
+            "description": "Query with search",
+            "parameters": [
+                {
+                    "name": "search",
+                    "type": "",
+                    "description": "Location search string",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "object",
+                "description": ""
             }
         },
         {
@@ -399,15 +888,15 @@
             }
         },
         {
-            "name": "withResize",
+            "name": "ifReady",
             "access": "",
             "virtual": false,
-            "description": "withResize mixin",
+            "description": "Do only if ready",
             "parameters": [
                 {
-                    "name": "Class",
+                    "name": "task",
                     "type": "function",
-                    "description": "Class to mix",
+                    "description": "",
                     "default": "",
                     "optional": "",
                     "nullable": ""
@@ -415,8 +904,50 @@
             ],
             "examples": [],
             "returns": {
-                "type": "function",
-                "description": "Mixed class"
+                "type": "Promise.<*>",
+                "description": ""
+            }
+        },
+        {
+            "name": "readyWhen",
+            "access": "",
+            "virtual": false,
+            "description": "Set ready when done",
+            "parameters": [
+                {
+                    "name": "task",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<*>",
+                "description": ""
+            }
+        },
+        {
+            "name": "unlessReady",
+            "access": "",
+            "virtual": false,
+            "description": "Do unless ready",
+            "parameters": [
+                {
+                    "name": "task",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<*>",
+                "description": ""
             }
         },
         {
@@ -438,6 +969,27 @@
             "returns": {
                 "type": "function",
                 "description": "Mixed class"
+            }
+        },
+        {
+            "name": "resultFor",
+            "access": "",
+            "virtual": false,
+            "description": "Do action and store result",
+            "parameters": [
+                {
+                    "name": "action",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<*>",
+                "description": "- Action result"
             }
         },
         {
@@ -483,6 +1035,55 @@
             }
         },
         {
+            "name": "addTargets",
+            "access": "",
+            "virtual": false,
+            "description": "Add targets",
+            "parameters": [
+                {
+                    "name": "targets",
+                    "type": "",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "getTargetIds",
+            "access": "",
+            "virtual": false,
+            "description": "Get ids of target",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Array.<String>",
+                "description": ""
+            }
+        },
+        {
+            "name": "getTargetRefs",
+            "access": "",
+            "virtual": false,
+            "description": "Get refs of target",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Array.<String>",
+                "description": ""
+            }
+        },
+        {
+            "name": "getTargets",
+            "access": "",
+            "virtual": false,
+            "description": "Get target values",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withValues",
             "access": "",
             "virtual": false,
@@ -518,6 +1119,36 @@
             "description": "Define method wrapper",
             "parameters": [],
             "examples": []
+        },
+        {
+            "name": "injectClassMethods",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "Injected Class"
+            }
+        }
+    ],
+    "properties": [
+        {
+            "name": "isReady",
+            "access": "",
+            "virtual": false,
+            "description": "Get is ready or not",
+            "type": ""
         }
     ]
 }
