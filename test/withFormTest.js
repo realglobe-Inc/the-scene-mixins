@@ -15,7 +15,13 @@ describe('with-form', () => {
   })
 
   it('Do test', () => {
-
+    const Form = withForm(
+      class WithForm {}
+    )
+    const f = new Form()
+    ok(f.postForm)
+    ok(f.sendForm)
+    ok(f._createFormData)
   })
 })
 
