@@ -388,7 +388,83 @@
             "access": "",
             "virtual": false,
             "description": "Get entry values",
+            "parameters": [
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": ""
+            }
+        },
+        {
+            "name": "hasEntryErrorFor",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "boolean",
+                "description": ""
+            }
+        },
+        {
+            "name": "resetEntry",
+            "access": "",
+            "virtual": false,
+            "description": "Reset entry",
             "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "setEntry",
+            "access": "",
+            "virtual": false,
+            "description": "Set entry values",
+            "parameters": [
+                {
+                    "name": "values",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "setEntryErrors",
+            "access": "",
+            "virtual": false,
+            "description": "Set entry errors",
+            "parameters": [
+                {
+                    "name": "errors",
+                    "type": "Object",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
             "examples": []
         },
         {
