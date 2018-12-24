@@ -1,7 +1,7 @@
 {
   "name": "the-scene-mixins",
   "description": "Mixins for the-scene",
-  "version": "3.0.7",
+  "version": "4.0.0",
   "author": {
     "name": "okunishinishi",
     "email": "okunishinishi@gmail.com",
@@ -15,6 +15,7 @@
     "asleep": "^1.0.3",
     "asobj": "^3.0.0",
     "bwindow": "^2.0.2",
+    "invariant": "^2.2.4",
     "objnest": "^5.0.4",
     "qs": "^6.6.0",
     "the-array": "^1.4.1",

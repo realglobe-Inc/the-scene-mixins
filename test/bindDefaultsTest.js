@@ -5,7 +5,7 @@
 'use strict'
 
 const bindDefaults = require('../lib/bindDefaults')
-const {ok, equal} = require('assert')
+const { ok, equal } = require('assert')
 
 describe('bindDefaults', () => {
   before(() => {
@@ -16,7 +16,7 @@ describe('bindDefaults', () => {
 
   it('Do test', () => {
     const Class = bindDefaults(
-      {foo: 'bar'}
+      { foo: 'bar' }
     )(class {})
 
     const instance = new Class()
@@ -26,7 +26,6 @@ describe('bindDefaults', () => {
       foo2: 'bar2'
     })(Class)
     const instance2 = new Class2()
-    equal(instance2.defaults.foo, 'bar')
     equal(instance2.defaults.foo2, 'bar2')
   })
 })
