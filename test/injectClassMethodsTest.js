@@ -1,13 +1,13 @@
 /**
- * Test for withBack.
+ * Test for injectClassMethods.
  * Runs with mocha.
  */
 'use strict'
 
-const withBack = require('../lib/withBack')
+const injectClassMethods = require('../lib/helpers/injectClassMethods')
 const { ok, strictEqual: equal, deepStrictEqual: deepEqual } = require('assert')
 
-describe('with-back', () => {
+describe('inject-class-methods', () => {
   before(() => {
   })
 

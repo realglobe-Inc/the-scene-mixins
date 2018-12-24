@@ -6,13 +6,15 @@
  */
 'use strict'
 
+const asClassMixin = require('./helpers/asClassMixin')
+
 /** @lends {{name}} */
-function {{name}} (Class) {
+const {{name}} = asClassMixin((Class) => {
   class {{pascalcase name}} extends Class {
 
   }
 
   return {{pascalcase name}}
-}
+})
 
 module.exports = {{name}}

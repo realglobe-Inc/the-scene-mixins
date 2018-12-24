@@ -5,7 +5,7 @@
 'use strict'
 
 const withEntry = require('../lib/withEntry')
-const {ok, equal} = require('assert')
+const { ok, equal } = require('assert')
 
 describe('with-entry', () => {
   before(() => {
@@ -20,8 +20,9 @@ describe('with-entry', () => {
         get scope () {
           return {
             entry: {
-              set (k, v) {
-                this[k] = v
+              set (values) {
+                console.log(this)
+                Object.assign(this.state, values)
               },
               state: {},
             },
@@ -36,8 +37,13 @@ describe('with-entry', () => {
     ok(obj)
 
     obj.setEntry({
-      a: [{i: 1}, {i: 2}]
+      a: [{ i: 1 }, { i: 2 }]
     })
+
+    obj.setEntry({
+      a: [{ i: 1 }]
+    })
+
   })
 })
 

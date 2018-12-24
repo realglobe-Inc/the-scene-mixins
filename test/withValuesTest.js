@@ -5,7 +5,7 @@
 'use strict'
 
 const withValues = require('../lib/withValues')
-const { ok, equal } = require('assert')
+const { ok, strictEqual: equal, deepStrictEqual: deepEqual } = require('assert')
 
 describe('with-values', () => {
   before(() => {

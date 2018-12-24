@@ -1,13 +1,13 @@
 /**
- * Test for withHolder.
+ * Test for asClassMixin.
  * Runs with mocha.
  */
 'use strict'
 
-const withHolder = require('../lib/withHolder')
+const asClassMixin = require('../lib/helpers/asClassMixin')
 const { ok, equal } = require('assert')
 
-describe('with-holder', () => {
+describe('as-class-mixin', () => {
   before(() => {
   })
 

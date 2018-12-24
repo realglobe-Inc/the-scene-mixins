@@ -1,13 +1,13 @@
 /**
- * Test for withBack.
+ * Test for asMethodWrap.
  * Runs with mocha.
  */
 'use strict'
 
-const withBack = require('../lib/withBack')
+const asMethodWrap = require('../lib/helpers/asMethodWrap')
 const { ok, strictEqual: equal, deepStrictEqual: deepEqual } = require('assert')
 
-describe('with-back', () => {
+describe('as-method-wrap', () => {
   before(() => {
   })
 
