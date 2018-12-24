@@ -155,18 +155,6 @@
             }
         },
         {
-            "name": "isBusy",
-            "access": "",
-            "virtual": false,
-            "description": "Is busy or not",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "boolean",
-                "description": ""
-            }
-        },
-        {
             "name": "busyFor",
             "access": "",
             "virtual": false,
@@ -205,6 +193,18 @@
             "examples": [],
             "returns": {
                 "type": "Promise.<void>",
+                "description": ""
+            }
+        },
+        {
+            "name": "isBusy",
+            "access": "",
+            "virtual": false,
+            "description": "Is busy or not",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "boolean",
                 "description": ""
             }
         },
@@ -426,6 +426,27 @@
             }
         },
         {
+            "name": "processEntry",
+            "access": "",
+            "virtual": false,
+            "description": "Process an entry",
+            "parameters": [
+                {
+                    "name": "handler",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
+            }
+        },
+        {
             "name": "resetEntry",
             "access": "",
             "virtual": false,
@@ -466,27 +487,6 @@
                 }
             ],
             "examples": []
-        },
-        {
-            "name": "processEntry",
-            "access": "",
-            "virtual": false,
-            "description": "Process an entry",
-            "parameters": [
-                {
-                    "name": "handler",
-                    "type": "function",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "Promise.<void>",
-                "description": ""
-            }
         },
         {
             "name": "withFailure",
@@ -801,6 +801,18 @@
             }
         },
         {
+            "name": "reloadLocation",
+            "access": "",
+            "virtual": false,
+            "description": "Reload current location",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Promise.<void>",
+                "description": ""
+            }
+        },
+        {
             "name": "setLocationHash",
             "access": "",
             "virtual": false,
@@ -816,18 +828,6 @@
                 }
             ],
             "examples": []
-        },
-        {
-            "name": "reloadLocation",
-            "access": "",
-            "virtual": false,
-            "description": "Reload current location",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "Promise.<void>",
-                "description": ""
-            }
         },
         {
             "name": "withPage",
@@ -1197,7 +1197,7 @@
             "examples": []
         },
         {
-            "name": "injectClassMethods",
+            "name": "injectProperties",
             "access": "",
             "virtual": false,
             "description": "",
