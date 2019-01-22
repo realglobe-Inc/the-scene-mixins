@@ -93,7 +93,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-scene-mixins@4.0.3](./doc/api/api.md)
++ [the-scene-mixins@4.0.4](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
